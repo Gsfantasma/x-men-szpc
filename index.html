@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        <DocumentProjeto X-men - Semana do Zero ao Programador Contratado>
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/estilos.css">
+    <link rel="stylesheet" href="./src/CSS/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg " alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope"
+                    data-description="Scott Summers possui a capacidade mutante de emitir poderosas rajadas de seus olhos. Ele usa um visor de quartzo rubi para controlar o seu poder devastador. Um líder nato, Ciclope sucedeu seu mentor, o Professor X, no comando dos X-Men">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope" />
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean-grey"
+                    data-description="Jean Grey é uma mutante nível ômega e o principal avatar da Força Fênix, no qual manifesta poderes cósmicos. A telepatia, telecinese e empatia de Jean são drasticamente aumentadas quando em contato com a Fênix, além de poder viajar no vácuo do espaço que vai além da velocidade da luz.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean grey" />
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince-Negra"
+                    data-description="Ela tem o poder da intagibilidade atravessar matéria sólida, campos de energia continuando intacta e também tem o poder de andar no ar.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince negra" />
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                    data-description="Tem o poder de controlar as forças da natureza, muito poderosa ela pode produzir raios, chuva, gelo, ventos, neblina, entre outros fenomenos.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade" />
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira"
+                    data-description=" Vampira tem o poder de absorver a vitalidade e memória das pessoas comuns que toca ou no caso dos mutantes os poderes, caracteristicas e a memória, mas só temporariamente caso seu toque seja prologando poderá até matar seu alvo.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem Vampira" />
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine"
+                    data-description="Logan ou Wolverine possui garras de adamantium, capazes de cortar qualquer coisa, ele tem um poderoso fato de cura; envelhece lentamente o que o torna praticamente imortal.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine" />
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno"
+                    data-description="Noturno possui agilidade sobre-humana, e a capacidade de teletransporte, invisibilidade em sombras profundas, e as mãos e os pés aderirem a parede. Sua mutações físicas incluem a pele azul, três dedos nos pés e mãos (incluindo o polegar), olhos amarelos, e uma cauda preênsil.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno" />
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto"
+                    data-description="Magneto é um mutante de nível ômega com enormes poderes de manipulação de campos magnéticos, além de controlar qualquer tipo de metal, incluindo o Adamantium.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto" />
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem selecionado" />
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Scott Summers possui a capacidade mutante de emitir poderosas rajadas de seus olhos.
+                     Ele usa um visor de quartzo rubi para controlar o seu poder devastador. Um líder nato, Ciclope sucedeu seu mentor, o Professor X,
+                     no comando dos X-Men
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
